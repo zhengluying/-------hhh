@@ -1,16 +1,20 @@
-# React + Vite
+# 郑璐滢 | 视觉设计师 / AI设计师 / 品牌设计师
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+个人作品集网站，使用 React + Vite 构建，部署于 Cloudflare Pages。
 
-Currently, two official plugins are available:
+## 本地开发
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+pnpm install
+pnpm run dev
+```
 
-## React Compiler
+## 构建
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+pnpm run build
+```
 
-## Expanding the Oxlint configuration
+## 部署
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+代码推送到 GitHub 后，Cloudflare Pages 自动构建部署。
