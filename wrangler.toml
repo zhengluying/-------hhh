@@ -1,0 +1,6 @@
+name = "portfolio"
+compatibility_date = "2026-07-02"
+
+[pages]
+  build_command = "pnpm run build"
+  build_output_dir = "dist"
