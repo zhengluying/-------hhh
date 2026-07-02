@@ -1,5 +1,6 @@
 name = "portfolio"
 compatibility_date = "2026-07-02"
+account_id = "c9b6b43e28a0623e71ca7635390dd7af"
 
 [pages]
   build_command = "pnpm run build"
